@@ -1,9 +1,11 @@
 {
   "name": "sample-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "A sample app without CRA",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server",
+    "build": "Webpack .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -28,5 +30,13 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gopiya2000/Sample-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gopiya2000/Sample-project/issues"
+  },
+  "homepage": "https://github.com/Gopiya2000/Sample-project#readme"
 }
